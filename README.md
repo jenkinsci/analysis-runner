@@ -1,7 +1,7 @@
-Simple Java project to run several static analysis tools
-=======================================================
+Maven project to run static analysis tools
+==========================================
 
-Provides configuration for static analysis tools:
+Provides configuration for the following static analysis tools:
 - PMD
 - CheckStyle
 - FindBugs
