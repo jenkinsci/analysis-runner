@@ -1,11 +1,25 @@
 package edu.hm.hafner;
 
+import java.util.Date;
+
 /**
- * FIXME: Document type InterfaceIsType.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
-public class InterfaceIsType {
-    
-}
+public interface InterfaceIsType {
+    /**
+     * Any number.
+     */
+    int NUMBER = 2;
 
+    /**
+     * Any text.
+     */
+    String TEXT = "Hi";
+
+    /**
+     * Any date.
+     */
+    Date DATE = new Date(13432332);
+}
