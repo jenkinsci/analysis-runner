@@ -144,6 +144,10 @@
       <property name="illegalPkgs" value="net.jcip.annotations"/>
     </module>
     <module name="EmptyForInitializerPad"/>
+    <module name="JavadocType"/>
+    <module name="JavadocType">
+      <property name="authorFormat" value="[A-Za-z]*"/>
+    </module>
   </module>
   <module name="FileTabCharacter">
     <property name="fileExtensions" value="jelly, java"/>
