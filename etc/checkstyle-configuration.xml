@@ -172,4 +172,7 @@
   <module name="SuppressWithNearbyCommentFilter">
     <property name="commentFormat" value="NOCHECKSTYLE"/>
   </module>
+  <module name="FileLength">
+    <property name="max" value="100"/>
+  </module>
 </module>

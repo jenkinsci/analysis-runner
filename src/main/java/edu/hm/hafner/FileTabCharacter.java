@@ -1,11 +1,10 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type FileTabCharacter.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
 public class FileTabCharacter {
-    
-}
 
+}
