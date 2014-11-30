@@ -138,7 +138,7 @@
     <module name="UpperEll"/>
     <module name="IllegalCatch"/>
     <module name="IllegalImport">
-      <property name="illegalPkgs" value="junit"/>
+      <property name="illegalPkgs" value="java.sql"/>
     </module>
     <module name="IllegalImport">
       <property name="illegalPkgs" value="net.jcip.annotations"/>
