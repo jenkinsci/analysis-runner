@@ -1,11 +1,24 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type ConstantName.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
-public class ConstantName {
-    
+public final class ConstantName {
+    private static final int bEGINSWRONG = 1;
+
+    private ConstantName() {
+
+    }
+
+    /**
+     * Returns the beginswrong.
+     *
+     * @return the beginswrong
+     */
+    public static int getBeginswrong() {
+        return bEGINSWRONG;
+    }
 }
 
