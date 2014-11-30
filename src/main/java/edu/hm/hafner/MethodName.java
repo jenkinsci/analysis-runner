@@ -1,11 +1,19 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type MethodName.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
-public class MethodName {
-    
-}
+public final class MethodName {
+    private MethodName() {
 
+    }
+
+    /**
+     * Prints sth.
+     */
+    public static void DoSth() {
+        System.out.println("Not useful");
+    }
+}

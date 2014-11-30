@@ -6,6 +6,6 @@ package edu.hm.hafner;
  * @author Christian M&ouml;stl
  */
 public class RightCurly {
-    
+
 }
 
