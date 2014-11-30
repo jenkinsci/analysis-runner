@@ -1,11 +1,10 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type EmptyStatement.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
 public class EmptyStatement {
-    
-}
 
+}
