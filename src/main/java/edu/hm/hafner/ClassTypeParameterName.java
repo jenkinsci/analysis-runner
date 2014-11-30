@@ -1,11 +1,18 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type ClassTypeParameterName.
+ * Useless class - only for test-cases.
  *
- * @author Christian M&ouml;stl
+ * @param <TT>
+ *            paramd.
  */
-public class ClassTypeParameterName {
-    
+public class ClassTypeParameterName<TT> {
+    /**
+     * Returns 1.
+     *
+     * @return return 1
+     */
+    public int doSth() {
+        return 1;
+    }
 }
-

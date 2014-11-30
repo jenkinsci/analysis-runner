@@ -1,11 +1,11 @@
 package edu.hm.hafner;
 
+
 /**
- * FIXME: Document type ClassDataAbstractionCoupling.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
 public class ClassDataAbstractionCoupling {
-    
-}
 
+}
