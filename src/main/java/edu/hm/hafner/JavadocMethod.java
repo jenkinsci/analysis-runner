@@ -1,11 +1,14 @@
 package edu.hm.hafner;
 
 /**
- * FIXME: Document type JavadocMethod.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
 public class JavadocMethod {
-    
+
+    public JavadocMethod() {
+
+    }
 }
 
