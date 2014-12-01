@@ -22,7 +22,7 @@ public class SuperFinalize {
      * @param text
      *            Text
      */
-    public SuperClone(final Date date, final int number, final String text) {
+    public SuperFinalize(final Date date, final int number, final String text) {
         this.date = date;
         this.number = number;
         this.text = text;
