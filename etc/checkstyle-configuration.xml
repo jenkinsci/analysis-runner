@@ -133,7 +133,7 @@
       <property name="max" value="10"/>
     </module>
     <module name="ClassFanOutComplexity">
-      <property name="max" value="25"/>
+      <property name="max" value="10"/>
     </module>
     <module name="JavaNCSS"/>
     <module name="NPathComplexity"/>
@@ -155,7 +155,8 @@
     </module>
   </module>
   <module name="FileTabCharacter">
-    <property name="fileExtensions" value="jelly, java"/>
+    <property name="eachLine" value="true"/>
+    <property name="fileExtensions" value="java"/>
   </module>
   <module name="SuppressionCommentFilter">
     <property name="offCommentFormat" value="CHECKSTYLE\:COUPLING-OFF"/>
