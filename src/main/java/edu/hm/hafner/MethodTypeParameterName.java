@@ -1,11 +1,13 @@
 package edu.hm.hafner;
 
+
 /**
- * FIXME: Document type MethodTypeParameterName.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
+ * @param <TT>
+ *            param
  */
-public class MethodTypeParameterName {
-    
-}
+public class MethodTypeParameterName<TT> {
 
+}
