@@ -138,7 +138,9 @@
     <module name="JavaNCSS"/>
     <module name="NPathComplexity"/>
     <module name="ArrayTypeStyle"/>
-    <module name="UpperEll"/>
+    <module name="UpperEll">
+      <property name="severity" value="warning"/>
+    </module>
     <module name="IllegalCatch"/>
     <module name="IllegalImport">
       <property name="illegalPkgs" value="java.sql"/>
