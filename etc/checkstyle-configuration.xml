@@ -15,6 +15,7 @@
     <module name="OneStatementPerLine"/>
     <module name="OuterTypeFilename"/>
     <module name="NestedForDepth">
+      <property name="severity" value="warning"/>
       <property name="max" value="2"/>
     </module>
     <module name="InnerTypeLast"/>
