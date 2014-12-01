@@ -157,9 +157,6 @@
   <module name="FileTabCharacter">
     <property name="fileExtensions" value="jelly, java"/>
   </module>
-  <module name="FileLength">
-    <property name="fileExtensions" value="jelly, java"/>
-  </module>
   <module name="SuppressionCommentFilter">
     <property name="offCommentFormat" value="CHECKSTYLE\:COUPLING-OFF"/>
     <property name="onCommentFormat" value="CHECKSTYLE\:COUPLING-ON"/>
@@ -182,6 +179,6 @@
     <property name="commentFormat" value="NOCHECKSTYLE"/>
   </module>
   <module name="FileLength">
-    <property name="max" value="100"/>
+    <property name="max" value="180"/>
   </module>
 </module>
