@@ -3,7 +3,7 @@ package edu.hm.hafner;
 import java.util.Date;
 
 /**
- * FIXME: Document type ParameterAssignment.
+ * Useless class - only for test-cases.
  *
  * @author Christian M&ouml;stl
  */
