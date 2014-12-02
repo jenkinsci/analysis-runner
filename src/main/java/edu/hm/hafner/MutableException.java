@@ -5,6 +5,30 @@ package edu.hm.hafner;
  *
  * @author Christian M&ouml;stl
  */
-public class MutableException {
-
+public class MutableException extends Exception {
+    
+    private static final long serialVersionUID = 1L;
+    
+    private String two;
+    
+    /**
+     * Creates a new instance of {@link MutableException}.
+     * 
+     * @param s
+     *            text
+     * @param two
+     *            text
+     */
+    public MutableException(String s, String two) {
+        super(s);
+    }
+    
+    /**
+     * Returns the two.
+     * 
+     * @return the two
+     */
+    public String getTwo() {
+        return two;
+    }
 }
