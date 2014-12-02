@@ -155,6 +155,7 @@
     </module>
   </module>
   <module name="FileTabCharacter">
+    <property name="severity" value="warning"/>
     <property name="eachLine" value="true"/>
     <property name="fileExtensions" value="java"/>
   </module>
