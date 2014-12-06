@@ -6,8 +6,19 @@ package edu.hm.hafner;
  * 
  * @author Christian M&ouml;stl
  */
-public final class InsertLine {
-    public InsertLine() {
+public final class InsertLine_Newline {
+	
+	
+	
+	
+	
+    public InsertLine_Newline() {
+    	
+    	
+    	
+    	
+    	
+    	
         // does nothing
     }
 }
