@@ -5,13 +5,13 @@ import java.util.Date;
  *
  * @author Christian M&ouml;stl
  */
-public class PackageDeclaration {
+public class PackageDeclarationSubclass extends PackageDeclarationSuperclass {
     private Date date; 
     private int number;
     private final String text;
     
     /**
-     * Creates a new instance of {@link PackageDeclaration}.
+     * Creates a new instance of {@link PackageDeclarationSubclass}.
      *
      * @param date
      *            Date
@@ -20,7 +20,7 @@ public class PackageDeclaration {
      * @param text
      *            Text
      */
-    public PackageDeclaration(final Date date, final int number, final String text) {
+    public PackageDeclarationSubclass(final Date date, final int number, final String text) {
         this.date = date;
         this.number = number;
         this.text = text;
